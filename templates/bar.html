@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <!-- BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- SCROL ANIMATIONS -->
+    <link rel="stylesheet" href="../static/css/animate.css">
+    <script src="../static/js/wow.min.js"></script>
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- navigation -->
+        <nav>
+            <span id="brand">
+                <a href="../index.html">Restaurant</a>
+            </span>
+            <ul id="menu">
+                <li><a href="../index.html">Home<span>.</span></a></li>
+                <li><a href="../templates/menu.html">Menu<span>.</span></a></li>
+                <li><a href="../templates/about.html">about<span>.</span></a></li>
+                <li><a href="../templates/bar.html">Bar & Lounge<span>.</span></a></li>
+                <li><a href="../templates/contact.html">contact<span>.</span></a></li>
+            </ul>
+            <div id="toggle">
+                <div class="span">menu</div>
+            </div>
+        </nav>
+
+        <div id="resize">
+            <div class="close-btn">close</div>
+            <ul id="menu">
+                <li><a href="../index.html">Home<span>.</span></a></li>
+                <li><a href="../templates/menu.html">Menu<span>.</span></a></li>
+                <li><a href="../templates/about.html">about<span>.</span></a></li>
+                <li><a href="../templates/bar.html">Bar & Lounge<span>.</span></a></li>
+                <li><a href="../templates/contact.html">contact<span>.</span></a></li>
+            </ul>
+        </div>
+        <!-- end of navigation -->
+        <!-- hero section -->
+        <div class="hero hero_bar">
+            <div class="header text-center">
+                <h1 class="uppercaseText">Bar & Lounge</h1>
+            </div>
+        </div>
+
+        <div class="scroll-down">
+
+        </div>
+        <!-- end of hero section -->
+        <!-- work section -->
+        <div class="container-fluid">
+            <br><br><br>
+            <h6>Become an Insider</h6>
+
+            <div class="row">
+                <div class="col-12">
+                    <form name="contact-form" class="contact-form" method="post" action="">
+                        <label for="contact-email">Email :</label>
+                        <div class="textarea">
+                            <input type="email" name="contact-email" id="contact-email" value="" required>
+                        </div>
+                        <div class="whitespace"></div>
+                        <button type="submit" name="contact-submit" id="contact-submit" class="send wow fadeInUp">Join</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="whitespace"></div>
+            <div class="whitespace"></div>
+
+            <div class="row">
+                <!-- <div class="col-lg-8"></div> -->
+                <div class="col-lg-10 barItem barItem_beer wow fadeInLeft">
+                    <div class="barItem_text">
+                        <h2>BEER</h2>
+                        <p>20 oz. All-American Draft Beer</p>
+                        <hr>
+                        <h2>WINE</h2>
+                        <p>5 oz. Glass of House Wine</p>
+                        <hr>
+                        <h2>COCKTAILS</h2>
+                        <ul>
+                            <li>Gin & Tonic</li>
+                            <li>Captain Morgan & Coke</li>
+                            <li>Jim Beam & Coke</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        <!-- end of work section -->
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+                <br><br>
+                <div class="collab">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p class="wow fadeInUp">Connect with us</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="hr">
+                    <div class="row"></div>
+                </div>
+                <br><br>
+                <div class="info">
+                    <div class="row">
+                        <div class="col-md-4" id="personal">
+                            <p class="wow fadeInUp">Tel:</p>
+                            <h4 class="wow fadeInUp" data-wow-delay=".2s">(888) 888-8888</h4>
+                            <br><br>
+                        </div>
+                        <div class="col-md-4" id="media">
+                            <p>Follow us:</p>
+                            <ul>
+                                <li id="fb" class="wow fadeInUp" data-wow-delay=".4s"><i class="fab fa-facebook-f"></i></li>
+                                <li id="ig" class="wow fadeInUp" data-wow-delay=".6s"><i class="fab fa-instagram"></i></li>
+                                <li id="tw" class="wow fadeInUp" data-wow-delay=".8s"><i class="fab fa-twitter"></i></li>
+                                <li id="yt" class="wow fadeInUp" data-wow-delay="1s"><i class="fab fa-youtube"></i></li>
+                            </ul>
+                            <br><br>
+                        </div>
+
+                        <div class="col-md-4" id="address">
+                            <p class="wow fadeInUp">Address:</p>
+                            <h4 class="wow fadeInUp" data-wow-delay=".2s">123 Main st,USA</h4>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of footer -->
+    </div>
+    <!-- GREENSOCK -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- BOOTSTRAP 4 -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- MAIN.JS -->
+    <script src="../static/js/main.js"></script>
+</body>
+
+</html>
